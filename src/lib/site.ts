@@ -14,7 +14,10 @@ export const site = {
   tagline: "Global refined-products trading, storage & marine logistics.",
   description:
     "Pro Petroleum LLC trades, stores and ships refined petroleum products worldwide — spot and contract supply, bulk chartering and pipeline transshipment across key energy corridors.",
-  url: "https://www.propetroleumllc.com", // set to real domain on Vercel
+  // Base URL for canonicals, sitemap, robots and the OG share image. Reads
+  // NEXT_PUBLIC_SITE_URL so the deployed URL (e.g. the Vercel domain) is used
+  // for social previews; falls back to the production domain at launch.
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.propetroleumllc.com",
   email: "info@propetroleumllc.com",
   phone: "+1 (000) 000-0000", // PLACEHOLDER — client to supply
   address: {
