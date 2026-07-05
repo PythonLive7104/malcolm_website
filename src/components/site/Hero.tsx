@@ -13,7 +13,7 @@ import { images } from "@/lib/images";
  * referenced in `slides` for the client's real photography — the overlay,
  * rotation and layout stay the same.
  */
-const slides = [images.hero, images.trading, images.refinery, images.shipping];
+const slides = [images.hero, images["liquid-storage"], images.refinery, images.shipping];
 const INTERVAL = 6000; // ms between slides
 
 export default function Hero() {

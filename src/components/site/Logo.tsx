@@ -38,7 +38,7 @@ export default function Logo({ className = "" }: { className?: string }) {
         <path d="M16 16v4.4" stroke="#fff" strokeWidth="2" strokeLinecap="round" />
       </svg>
       <span className="flex flex-col leading-none">
-        <span className="font-[family-name:var(--font-sora)] text-[1.05rem] font-bold tracking-tight">
+        <span className="font-[family-name:var(--font-sora)] text-[1.05rem] font-bold uppercase tracking-tight">
           {primary}
           {suffix && <span className="ml-1 text-amber-500">{suffix}</span>}
         </span>

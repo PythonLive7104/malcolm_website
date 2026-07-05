@@ -78,10 +78,9 @@ export default async function HomePage() {
           lead="From cargo sourcing to final delivery, each segment is run in-house so you deal with one accountable team."
         />
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {segments.map((s, i) => (
+          {segments.map((s) => (
             <SegmentCard
               key={s.slug}
-              index={i}
               title={s.title}
               blurb={s.blurb}
               href={s.href}

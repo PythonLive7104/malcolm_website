@@ -9,11 +9,10 @@ type Props = {
   href: string;
   icon?: keyof typeof icons;
   image?: SiteImage;
-  index?: number;
 };
 
 /** Segment / service / product card with hover-lift + accent underline. */
-export default function SegmentCard({ title, blurb, href, icon, image, index }: Props) {
+export default function SegmentCard({ title, blurb, href, icon, image }: Props) {
   const Icon = icon ? icons[icon] : null;
   return (
     <Link
@@ -39,11 +38,6 @@ export default function SegmentCard({ title, blurb, href, icon, image, index }: 
       )}
 
       <div className="flex flex-1 flex-col p-7">
-        {typeof index === "number" && (
-          <span className="absolute right-6 top-6 font-[family-name:var(--font-sora)] text-sm font-bold text-white/70 mix-blend-plus-lighter">
-            {String(index + 1).padStart(2, "0")}
-          </span>
-        )}
         {!image && Icon && (
           <span className="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-navy-800 text-amber-500 transition-colors group-hover:bg-amber-500 group-hover:text-navy-900">
             <Icon size={22} strokeWidth={2} />
