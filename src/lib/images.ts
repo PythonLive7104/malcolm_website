@@ -48,7 +48,7 @@ export const images = {
   },
   "liquid-storage": {
     src: `${demo}/liquid-storage.jpg`,
-    alt: "Riveted steel exterior of a large petroleum storage tank",
+    alt: "Rows of white bulk petroleum storage tanks under a clear blue sky",
     width: 1200,
     height: 900,
   },

@@ -47,4 +47,4 @@
 {"_type":"companyStat","_id":"stat-0","label":"Storage capacity","value":2.4,"prefix":"","suffix":"M m³","order":0}
 {"_type":"companyStat","_id":"stat-1","label":"Chartered vessels","value":40,"prefix":"","suffix":"+","order":1}
 {"_type":"companyStat","_id":"stat-2","label":"Countries served","value":35,"prefix":"","suffix":"","order":2}
-{"_type":"companyStat","_id":"stat-3","label":"Years in operation","value":18,"prefix":"","suffix":"","order":3}
+{"_type":"companyStat","_id":"stat-3","label":"Years in operation","value":36,"prefix":"","suffix":"","order":3}

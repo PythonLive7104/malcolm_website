@@ -37,7 +37,7 @@ export const stats: { label: string; value: number; suffix?: string; prefix?: st
   { label: "Storage capacity", value: 2.4, suffix: "M m³" },
   { label: "Chartered vessels", value: 40, suffix: "+" },
   { label: "Countries served", value: 35, suffix: "" },
-  { label: "Years in operation", value: 18, suffix: "" },
+  { label: "Years in operation", value: 36, suffix: "" },
 ];
 
 /** Core business segments — the homepage card grid. */
